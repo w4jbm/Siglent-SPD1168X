@@ -36,4 +36,4 @@ time.sleep(1)
 rv = s.measure(ch = siglent.CHANNEL.CH1, parameter = siglent.PARAMETER.VOLTAGE)
 rc = s.measure(ch = siglent.CHANNEL.CH1, parameter = siglent.PARAMETER.CURRENT)
 
-print(f'\nVoltage: {rv}, Current: {rc}')
+print(f'\nVoltage: {rv} volts, Current: {rc} amps.')
